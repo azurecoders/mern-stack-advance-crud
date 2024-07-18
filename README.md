@@ -1,109 +1,66 @@
-# Advanced MERN Stack CRUD System
+# Advanced MERN Stack Employee Management System
 
-Welcome to the Advanced MERN Stack CRUD System project! This project leverages the power of MongoDB, Express, React, and Node.js to build a feature-rich application with responsive design, file uploads to Cloudinary, authentication, and seamless API testing using Insomnia. Our goal is to create an efficient and robust CRUD system that will be deployed on Vercel or Render.com.
+Welcome to the Advanced MERN Stack Employee Management System project! This project aims to create a web application where an admin can manage employees' profiles and other users can register as employees. The admin has super user privileges and can manage all aspects of the system.
 
-## Day 1: Initial Backend Setup
-
-Today, we have laid the foundation of our backend API. We have set up the project structure and created a test API to ensure everything is working correctly.
-
-### Project Structure
-
-api<br>
-├── controllers<br>
-├── models<br>
-├── routes<br>
-├── index.js<br>
-└── package.json
-
-### Test API Endpoint
-
-We have created a simple test endpoint to verify our backend setup.
-
-- **Endpoint:** `http://localhost:5000/api/test`
-- **Method:** `GET`
-- **Reponse:**
-
-```json
-{
-  "message": "Api is working"
-}
-```
-
-### Testing with Insomnia
-
-- Open Insomnia.
-
-- Create a new request.
-
-- Set the method to `GET`.
-
-- Set the URL to `http://localhost:5000/api/test`.
-
-- Send the request and you should see the following response:
-
-```json
-{
-  "message": "Api is working"
-}
-```
-
-## Getting Started
-
-1. **Clone the Repository:**
-
-```bash
-git clone https://github.com/azurecoders/mern-stack-advance-crud
-cd mern-stack-advance-crud
-```
-
-2. **Backend Setup:**
-   Navigate to the `api` folder and install dependencies:
-
-```bash
-cd api
-npm install
-```
-
-Start the backend server:
-
-```bash
-npm run dev # for development with nodemon
-npm start   # for production
-```
-
-## Future Plans
-
-In the upcoming days, we will:
-
-- Set up the frontend with React and Tailwind CSS.
-- Implement advanced CRUD operations.
-- Integrate React Router DOM for navigation.
-- Set up authentication.
-- Handle file uploads to Cloudinary using Multer.
-- Ensure responsive design.
-- Deploy the application to Vercel or Render.com.
-
-## Deployment
-
-When ready to deploy, follow these steps:
-
-1. **Build the project:**
-
-```bash
-npm run build
-```
-
-2. **Deploy to your preferred platform (e.g., Vercel, Render.com):**
-
-```bash
-# Example for Vercel
-vercel deploy
-```
-
-## Stay Tuned
-
-Stay tuned for more updates as we continue to enhance this advanced CRUD system. Your contributions and feedback are always welcome!
+This project will be developed in multiple parts, with each part focusing on different functionalities. A series of videos explaining the development process will be uploaded to the Code Vise YouTube channel in Hindi language.
 
 ---
 
-**Made with ❤️ by [Muzammil](https://github.com/azurecoders/)**
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Day 1](#day-1)
+- [Day 2](#day-2)
+- [License](#license)
+
+---
+
+## Introduction
+
+In this project, we aim to build an advanced MERN Stack Employee Management System where admin users can efficiently manage employee profiles and other users can register as employees.
+
+---
+
+## Features
+
+- Admin Dashboard for complete control
+- User Registration and Login
+- Employee Profile Management
+- Error Middleware for error handling
+- MongoDB Integration for data storage
+- Cookies Authentication
+
+---
+
+## Day 1
+
+### Test API
+
+On Day 1, a test API was created to lay the foundation for the project.
+
+## Day 2
+
+### Error Middleware
+
+An error middleware was implemented to handle errors effectively.
+
+### Sign Up and Login API
+
+Setup signup and login APIs for user authentication.
+
+### MongoDB Integration
+
+Data is stored in MongoDB to ensure persistence.
+
+## License
+
+This project belongs to **[AzureCoders](https://github.com/azurecoders)**
+
+You are free to use this code
+
+---
+
+🔥 Let's build something amazing. 🔥
+
+**Made with :heart: by [Muzammil](https://github.com/azurecoders)**
