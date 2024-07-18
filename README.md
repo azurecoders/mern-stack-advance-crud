@@ -13,9 +13,7 @@ api
 ├── models
 ├── routes
 ├── index.js
-├── .env.example
 └── package.json
-
 
 ### Test API Endpoint
 
@@ -23,51 +21,55 @@ We have created a simple test endpoint to verify our backend setup.
 
 - **Endpoint:** `http://localhost:5000/api/test`
 - **Method:** `GET`
-- **Response:**
-    ```json
-    {
-      "message": "API is working!"
-    }
-    ```
+- **Reponse:**
+
+```json
+{
+  "message": "Api is working"
+}
+```
 
 ### Testing with Insomnia
 
-1. Open Insomnia.
-2. Create a new request.
-3. Set the method to `GET`.
-4. Set the URL to `http://localhost:5000/api/test`.
-5. Send the request and you should see the following response:
+- Open Insomnia.
 
-    ```json
-    {
-      "message": "API is working!"
-    }
-    ```
+- Create a new request.
+
+- Set the method to `GET`.
+
+- Set the URL to `http://localhost:5000/api/test`.
+
+- Send the request and you should see the following response:
+
+```json
+{
+  "message": "Api is working"
+}
+```
 
 ## Getting Started
 
 1. **Clone the Repository:**
 
-    ```bash
-    git clone https://github.com/yourusername/advanced-mern-crud.git
-    cd advanced-mern-crud
-    ```
+```bash
+git clone https://github.com/azurecoders/mern-stack-advance-crud
+cd mern-stack-advance-crud
+```
 
 2. **Backend Setup:**
+   Navigate to the `api` folder and install dependencies:
 
-    Navigate to the `api` folder and install dependencies:
+```bash
+cd api
+npm install
+```
 
-    ```bash
-    cd api
-    npm install
-    ```
+Start the backend server:
 
-    Start the backend server:
-
-    ```bash
-    npm run dev # for development with nodemon
-    npm start   # for production
-    ```
+```bash
+npm run dev # for development with nodemon
+npm start   # for production
+```
 
 ## Future Plans
 
@@ -87,16 +89,16 @@ When ready to deploy, follow these steps:
 
 1. **Build the project:**
 
-    ```bash
-    npm run build
-    ```
+```bash
+npm run build
+```
 
 2. **Deploy to your preferred platform (e.g., Vercel, Render.com):**
 
-    ```bash
-    # Example for Vercel
-    vercel deploy
-    ```
+```bash
+# Example for Vercel
+vercel deploy
+```
 
 ## Stay Tuned
 
@@ -104,4 +106,4 @@ Stay tuned for more updates as we continue to enhance this advanced CRUD system.
 
 ---
 
-**Made with ❤️ by [Your Name](https://github.com/yourusername)**
+**Made with ❤️ by [Muzammil](https://github.com/azurecoders/)**
