@@ -8,56 +8,66 @@ Today, we have laid the foundation of our backend API. We have set up the projec
 
 ### Project Structure
 
-api<br/>
-├── controllers<br/>
-├── middlewares<br/>
-├── models<br/>
-├── routes<br/>
-├── utils<br/>
-├── index.js<br/>
-└── package.json<br/>
+api
+├── controllers
+├── models
+├── routes
+├── index.js
+├── .env.example
+└── package.json
+
 
 ### Test API Endpoint
 
 We have created a simple test endpoint to verify our backend setup.
 
-- **Endpoint:** http://localhost:4000/api/test
-- **Method:** GET
+- **Endpoint:** `http://localhost:5000/api/test`
+- **Method:** `GET`
 - **Response:**
-  
-json
-  {
-    "message": "Everything is working. Are you excited?"
-  }
+    ```json
+    {
+      "message": "API is working!"
+    }
+    ```
 
+### Testing with Insomnia
+
+1. Open Insomnia.
+2. Create a new request.
+3. Set the method to `GET`.
+4. Set the URL to `http://localhost:5000/api/test`.
+5. Send the request and you should see the following response:
+
+    ```json
+    {
+      "message": "API is working!"
+    }
+    ```
 
 ## Getting Started
 
 1. **Clone the Repository:**
 
-   
-bash
-   git clone https://github.com/azurecoders/mern-stack-advance-crud.git
-   cd advanced-mern-crud
-
+    ```bash
+    git clone https://github.com/yourusername/advanced-mern-crud.git
+    cd advanced-mern-crud
+    ```
 
 2. **Backend Setup:**
 
-   Navigate to the api folder and install dependencies:
+    Navigate to the `api` folder and install dependencies:
 
-   
-bash
-   cd api
-   npm install
+    ```bash
+    cd api
+    npm install
+    ```
 
+    Start the backend server:
 
-   Start the backend server:
-
-   
-bash
-   npm run dev # for development with nodemon
-   npm start   # for production
-
+    ```bash
+    npm run dev # for development with nodemon
+    npm start   # for production
+    ```
 
 ## Future Plans
 
@@ -71,10 +81,27 @@ In the upcoming days, we will:
 - Ensure responsive design.
 - Deploy the application to Vercel or Render.com.
 
+## Deployment
+
+When ready to deploy, follow these steps:
+
+1. **Build the project:**
+
+    ```bash
+    npm run build
+    ```
+
+2. **Deploy to your preferred platform (e.g., Vercel, Render.com):**
+
+    ```bash
+    # Example for Vercel
+    vercel deploy
+    ```
+
 ## Stay Tuned
 
 Stay tuned for more updates as we continue to enhance this advanced CRUD system. Your contributions and feedback are always welcome!
 
 ---
 
-**Made with ❤️ by [Muzammil Ahmed Khan](https://github.com/azurecoders)**
+**Made with ❤️ by [Your Name](https://github.com/yourusername)**
