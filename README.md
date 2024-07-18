@@ -45,7 +45,7 @@ On Day 1, a test API was created to lay the foundation for the project.
 
 An error middleware was implemented to handle errors effectively.
 
-### Signup and Login API
+### Sign Up and Login API
 
 Setup signup and login APIs for user authentication.
 
@@ -55,12 +55,12 @@ Data is stored in MongoDB to ensure persistence.
 
 ## License
 
-This project belongs to me Azure Coders.
+This project belongs to **[AzureCoders](https://github.com/azurecoders)**
 
-Any one can use it for free.
+You are free to use this code
 
 ---
 
-🔥 Let's build something amazing! 🔥
+🔥 Let's build something amazing. 🔥
 
-**Made with ❤ by [Muzammil](https://github.com/azurecoders/)**
+**Made with :heart: by [Muzammil](https://github.com/azurecoders)**
