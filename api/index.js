@@ -1,8 +1,28 @@
 import express from "express";
-import testRouter from "./routes/testing.route.js";
+import dotenv from "dotenv";
+import mongoose from "mongoose";
+import authRouter from "./routes/auth.route.js";
+
+dotenv.config();
+
+mongoose
+  .connect(process.env.MONGO_URI)
+  .then(() => console.log("DB Connected"))
+  .catch((error) => console.log(error));
 
 const app = express();
 
-app.use("/api/test", testRouter);
+app.use(express.json());
 
-app.listen(4000, () => console.log("Server is Working"));
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => console.log(`Server is Working on PORT ${PORT}`));
+
+app.use("/api/auth", authRouter);
+
+app.use((err, req, res, next) => {
+  const message = err.message || "Something went wrong";
+  const statusCode = err.statusCode || 500;
+
+  res.status(statusCode).json({ success: false, message });
+});
