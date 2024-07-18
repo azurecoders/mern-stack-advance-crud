@@ -8,11 +8,11 @@ Today, we have laid the foundation of our backend API. We have set up the projec
 
 ### Project Structure
 
-api
-├── controllers
-├── models
-├── routes
-├── index.js
+api<br>
+├── controllers<br>
+├── models<br>
+├── routes<br>
+├── index.js<br>
 └── package.json
 
 ### Test API Endpoint
