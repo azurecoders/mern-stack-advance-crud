@@ -43,7 +43,10 @@ export const LogIn = async (req, res, next) => {
 
     res
       .status(200)
-      .cookie("access_token", token, { maxAge: 60 * 60 * 24 * 7 * 1000 })
+      .cookie("access_token", token, {
+        maxAge: 60 * 60 * 24 * 7 * 1000,
+        sameSite: "None",
+      })
       .json({ success: true, message: rest });
   } catch (error) {
     next(error);
