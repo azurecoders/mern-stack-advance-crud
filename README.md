@@ -12,13 +12,21 @@ This project will be build using MERN Stack. It is an intermediate to advance le
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technology Used](#technology-used)
-- [Day 1](#day-1)
-- [Day 2](#day-2)
-- [Day 3](#day-3)
-- [License](#license)
-- [Credits](#credits)
+- [Advance MERN STACK Employee Management System](#advance-mern-stack-employee-management-system)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Technology Used](#technology-used)
+    - [Backend Technology](#backend-technology)
+    - [Frontend Technology](#frontend-technology)
+  - [API Testing](#api-testing)
+    - [Alternative to `Insomnia`](#alternative-to-insomnia)
+  - [Day 1](#day-1)
+  - [Day 2](#day-2)
+  - [Day 3](#day-3)
+  - [Day 4](#day-4)
+  - [Installation](#installation)
+  - [License](#license)
+  - [Credits](#credits)
 
 ---
 
@@ -84,23 +92,29 @@ This is my recommendation and my opinion only. If you feel comfortable with any 
 
 ![Day 1](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721462848/pzksl47rcgjoh8igdws9.jpg)
 
-In day 1, we had setup a test api and set the end point to test the api and api's connection.
+At day 1, we had setup a test api and set the end point to test the api and api's connection.
 
 ## Day 2
 
 ![Day 2](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721462824/xhworpi6nircmwlcycrw.jpg)
 
-In day 2, we created an error middleware to deal with errors and had created a working Sign Up and Login API and had stored the data in the MongoDB database.
+At day 2, we created an error middleware to deal with errors and had created a working Sign Up and Login API and had stored the data in the MongoDB database.
 
-In Day 2, we had just done part 1 of Authentication.
+At Day 2, we had just done part 1 of Authentication.
 
 ## Day 3
 
 ![Day 3](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721462862/u9gluam5g7d3pweu3zhm.png)
 
-Today, at Day 3, we have completed our authentication and had setup cookie based authentication.
+At Day 3, we have completed our authentication and had setup cookie based authentication.
 
 For that purpose we have used jsonwebtoken.
+
+## Day 4
+
+![Day 4](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721720874/ooo1bim5lagcixbhhizt.png)
+
+Today, at Day 4, we have made a middleware to verify the token created by jsonwebtoken at the time of authentication. In addition, we have also created an update profile API.
 
 ---
 
