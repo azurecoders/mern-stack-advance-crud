@@ -24,6 +24,7 @@ This project will be build using MERN Stack. It is an intermediate to advance le
   - [Day 2](#day-2)
   - [Day 3](#day-3)
   - [Day 4](#day-4)
+  - [Day 5](#day-5)
   - [Installation](#installation)
   - [License](#license)
   - [Credits](#credits)
@@ -114,7 +115,13 @@ For that purpose we have used jsonwebtoken.
 
 ![Day 4](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721720874/ooo1bim5lagcixbhhizt.png)
 
-Today, at Day 4, we have made a middleware to verify the token created by jsonwebtoken at the time of authentication. In addition, we have also created an update profile API.
+At Day 4, we have made a middleware to verify the token created by jsonwebtoken at the time of authentication. In addition, we have also created an update profile API.
+
+## Day 5
+
+![Day 5](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721902668/oao8jln1sc1u8szukkor.png)
+
+Today, at Day 5, we have created an update password API. We have also made that API secure with our logics, by checking and comparing old Password and saving the new Hashed Password
 
 ---
 
