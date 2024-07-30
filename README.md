@@ -25,6 +25,7 @@ This project will be build using MERN Stack. It is an intermediate to advance le
   - [Day 3](#day-3)
   - [Day 4](#day-4)
   - [Day 5](#day-5)
+  - [Day 6](#day-6)
   - [Installation](#installation)
   - [License](#license)
   - [Credits](#credits)
@@ -121,13 +122,19 @@ At Day 4, we have made a middleware to verify the token created by jsonwebtoken 
 
 ![Day 5](https://res.cloudinary.com/dbt8yugrw/image/upload/v1721902668/oao8jln1sc1u8szukkor.png)
 
-Today, at Day 5, we have created an update password API. We have also made that API secure with our logics, by checking and comparing old Password and saving the new Hashed Password
+At Day 5, we have created an update password API. We have also made that API secure with our logics, by checking and comparing old Password and saving the new Hashed Password
+
+## Day 6
+
+![Day 6](https://i.ibb.co/QmtqSJ3/Day-6-Advanced-MERN-Stack-CRUD-Employee-Management-System-Setting-Up-Multer-for-File-Handling.png)
+
+Today, at Day 6, we have learned how to setup Multer and how to handle files. We have also learned to upload files to our local system (backend).
 
 ---
 
 ## Installation
 
-Till now (Day 3), we have just setup backend so to install backend and to run that code follow the following steps:
+Till now (Day 6), we have just setup backend so to install backend and to run that code follow the following steps:
 
 - **Clone Repository:**
 

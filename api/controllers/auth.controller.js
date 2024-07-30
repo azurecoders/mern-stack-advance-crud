@@ -12,7 +12,12 @@ export const SignUp = async (req, res, next) => {
       return next(errorHandler(403, "Email in Use. User already exists"));
 
     const hashedPassword = bcryptjs.hashSync(password, 10);
-    const newUser = new User({ name, email, password: hashedPassword });
+    const newUser = new User({
+      name,
+      email,
+      password: hashedPassword,
+      profilePic: req.file.path,
+    });
 
     await newUser.save();
 

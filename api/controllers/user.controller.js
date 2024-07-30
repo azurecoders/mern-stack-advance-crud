@@ -3,7 +3,7 @@ import User from "../models/user.model.js";
 import bcryptjs from "bcryptjs";
 
 export const updateProfile = async (req, res, next) => {
-  const { profilePic, name, phone } = req.body;
+  const { name, phone } = req.body;
   try {
     if (req.user.id !== req.params.id)
       return next(errorHandler(403, "Please login with your own account"));
@@ -12,7 +12,7 @@ export const updateProfile = async (req, res, next) => {
       req.user.id,
       {
         $set: {
-          profilePic,
+          profilePic: req.file.path,
           name,
           phone,
         },
