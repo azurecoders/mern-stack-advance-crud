@@ -26,6 +26,7 @@ This project will be build using MERN Stack. It is an intermediate to advance le
   - [Day 4](#day-4)
   - [Day 5](#day-5)
   - [Day 6](#day-6)
+  - [Day 7](#day-7)
   - [Installation](#installation)
   - [License](#license)
   - [Credits](#credits)
@@ -130,11 +131,17 @@ At Day 5, we have created an update password API. We have also made that API sec
 
 Today, at Day 6, we have learned how to setup Multer and how to handle files. We have also learned to upload files to our local system (backend).
 
+## Day 7
+
+![Day 7](https://i.ibb.co/fSN32vM/INTRODUCTION-TEST-API-2.png)
+
+Today, at Day 7, we have learned how to upload files to cloudinary and we have setup some additional logics for that. We have also used fs package of nodejs.
+
 ---
 
 ## Installation
 
-Till now (Day 6), we have just setup backend so to install backend and to run that code follow the following steps:
+Till now (Day 7), we have just setup backend so to install backend and to run that code follow the following steps:
 
 - **Clone Repository:**
 
