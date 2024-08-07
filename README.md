@@ -140,7 +140,7 @@ At Day 7, we have learned how to upload files to cloudinary and we have setup so
 
 ## Day 8
 
-![Day 8](https://i.ibb.co/fSN32vM/INTRODUCTION-TEST-API-2.png)
+![Day 8](https://i.ibb.co/SxrHKps/Day-8-Mega-Episode-Login-Signup-Landing-Page-Navbar-MERN-Stack-Advanced-CRUD.png")
 
 Today, at Day 8, we have started working on our frontend part. We have created Navbar, Login and Sign Up Page.
 
