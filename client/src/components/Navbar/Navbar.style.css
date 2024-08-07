@@ -1,0 +1,37 @@
+header {
+  box-shadow: 3px 3px 5px gray;
+}
+
+.nav-container {
+  min-height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+ul.menu li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul.menu li a {
+  color: black;
+  font-size: 1.1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.logo a {
+  color: black;
+}
+
+@media screen and (min-width: 900px) {
+  ul.menu li a:hover {
+    text-decoration: underline;
+  }
+}

@@ -27,6 +27,7 @@ This project will be build using MERN Stack. It is an intermediate to advance le
   - [Day 5](#day-5)
   - [Day 6](#day-6)
   - [Day 7](#day-7)
+  - [Day 8](#day-8)
   - [Installation](#installation)
   - [License](#license)
   - [Credits](#credits)
@@ -135,13 +136,19 @@ Today, at Day 6, we have learned how to setup Multer and how to handle files. We
 
 ![Day 7](https://i.ibb.co/fSN32vM/INTRODUCTION-TEST-API-2.png)
 
-Today, at Day 7, we have learned how to upload files to cloudinary and we have setup some additional logics for that. We have also used fs package of nodejs.
+At Day 7, we have learned how to upload files to cloudinary and we have setup some additional logics for that. We have also used fs package of nodejs.
+
+## Day 8
+
+![Day 8](https://i.ibb.co/fSN32vM/INTRODUCTION-TEST-API-2.png)
+
+Today, at Day 8, we have started working on our frontend part. We have created Navbar, Login and Sign Up Page.
 
 ---
 
 ## Installation
 
-Till now (Day 7), we have just setup backend so to install backend and to run that code follow the following steps:
+Till now (Day 8), we have setup backend as well as frontend so to download the code follow the steps:
 
 - **Clone Repository:**
 
@@ -150,9 +157,12 @@ Till now (Day 7), we have just setup backend so to install backend and to run th
   cd mern-stack-advance-crud
   ```
 
+**Backend Setup:**
+
 - **Install Dependencies:**
 
   ```bash
+  cd api
   npm install
   ```
 
@@ -165,6 +175,24 @@ Till now (Day 7), we have just setup backend so to install backend and to run th
     - **JWT_SECRET**
 
 After setting the ENV Variables then continue following:
+
+- **Running Code:**
+  Install `nodemon` to run the dev script.
+
+  ```bash
+  npm run dev
+  ```
+
+**Frontend Setup:**
+
+- **Clone Repository:**
+
+- **Install Dependencies:**
+
+  ```bash
+  cd client
+  npm install
+  ```
 
 - **Running Code:**
   Install `nodemon` to run the dev script.

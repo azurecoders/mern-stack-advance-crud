@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.home-section {
+  padding: 20px;
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.home-section h2 {
+  font-size: 2rem;
+}
+
+.home-section p {
+  font-size: 18px;
+}
+
+.signUp-container {
+  padding: 20px;
+  min-height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.signUp-container h2 {
+  font-size: 2rem;
+}
+
+.signUp-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 450px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+}
+
+.signUp-container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signUp-container form div label {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.signUp-container form div input {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.signUp-container button {
+  padding: 8px 0;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #ccc;
+}
+
+@media screen and (min-width: 900px) {
+  .signUp-container button:hover {
+    border: 1px solid black;
+  }
+}
