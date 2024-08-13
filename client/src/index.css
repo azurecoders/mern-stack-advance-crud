@@ -85,6 +85,11 @@
   border: 1px solid #ccc;
 }
 
+.error-msg {
+  text-align: center;
+  color: #eb4d4b;
+}
+
 @media screen and (min-width: 900px) {
   .signUp-container button:hover {
     border: 1px solid black;

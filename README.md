@@ -28,6 +28,7 @@ This project will be build using MERN Stack. It is an intermediate to advance le
   - [Day 6](#day-6)
   - [Day 7](#day-7)
   - [Day 8](#day-8)
+  - [Day 9](#day-9)
   - [Installation](#installation)
   - [License](#license)
   - [Credits](#credits)
@@ -140,15 +141,21 @@ At Day 7, we have learned how to upload files to cloudinary and we have setup so
 
 ## Day 8
 
-![Day 8](https://i.ibb.co/SxrHKps/Day-8-Mega-Episode-Login-Signup-Landing-Page-Navbar-MERN-Stack-Advanced-CRUD.png")
+![Day 8](https://i.ibb.co/SxrHKps/Day-8-Mega-Episode-Login-Signup-Landing-Page-Navbar-MERN-Stack-Advanced-CRUD.png)
 
-Today, at Day 8, we have started working on our frontend part. We have created Navbar, Login and Sign Up Page.
+At Day 8, we have started working on our frontend part. We have created Navbar, Login and Sign Up Page.
+
+## Day 9
+
+![Day 9](https://i.ibb.co/FbpDbdT/Day-9-Complete-Sign-Up-Sign-In-Logout-with-Redux-MERN-Stack-Advanced-CRUD.png)
+
+Today, at Day 9, we have completed our Login, Sign Up and Log Out functionalities. We have also setup state management using React Redux and to go one step ahead we have used Redux Persist to store data in local storage.
 
 ---
 
 ## Installation
 
-Till now (Day 8), we have setup backend as well as frontend so to download the code follow the steps:
+Till now (Day 9), we have setup backend as well as frontend so to download the code follow the steps:
 
 - **Clone Repository:**
 

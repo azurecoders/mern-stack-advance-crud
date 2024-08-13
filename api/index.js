@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import authRouter from "./routes/auth.route.js";
 import userRouter from "./routes/user.route.js";
 import cookieParser from "cookie-parser";
+import cors from "cors";
 
 dotenv.config();
 
@@ -13,6 +14,13 @@ mongoose
   .catch((error) => console.log(error));
 
 const app = express();
+
+var corsOptions = {
+  origin: "*",
+  optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use("/uploads", express.static("uploads/"));
